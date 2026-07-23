@@ -1,7 +1,30 @@
 aid: apiday
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apiday.png
 name: Apiday
-description: Apiday is a company surfaced as a portfolio company of speedinvest and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Apiday is an ESG (Environmental, Social, and Governance) software platform
+  built for private markets. It combines AI-powered automation with expert
+  guidance so investors, fund managers, and portfolio companies can streamline
+  sustainability reporting, comply with regulatory frameworks (SFDR, EU
+  Taxonomy, EDCI, PRI, ILPA), automate ESG questionnaires and due-diligence
+  requests, calculate GHG emissions against 3,000+ benchmarks, and turn ESG
+  obligations into measurable value creation. The company reports that over 500
+  investors and 5,000 companies use the platform across private equity, venture
+  capital, private credit, institutional LP, and infrastructure asset classes.
+  Backed by Speedinvest. Apiday does not currently publish a public developer
+  API, OpenAPI specification, SDKs, or developer portal; this profile captures
+  the company's identity and public web surface.
 url: https://raw.githubusercontent.com/api-evangelist/apiday/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,6 +37,13 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- ESG
+- Sustainability
+- Reporting
+- Compliance
+- Private Markets
+- FinTech
+- Carbon Accounting
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +52,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://apiday.com
+  url: https://www.apiday.com
+- type: Blog
+  url: https://www.apiday.com/resources/blog
+- type: PrivacyPolicy
+  url: https://www.apiday.com/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/apiday
+- type: Login
+  url: https://app.apiday.com
+- type: Support
+  url: https://www.apiday.com/contact-us
+- type: DomainSecurity
+  url: security/apiday-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
